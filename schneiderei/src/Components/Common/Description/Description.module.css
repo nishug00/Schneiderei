@@ -1,0 +1,74 @@
+.descriptionContainer {
+    background: #fbfbfb;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .descriptionFrame {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .descriptionContent {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .title {
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+  }
+  
+  .asterisk {
+    color: #ff0000;
+  }
+  
+  .inputContainer {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 11px 21px;
+  }
+  
+  .inputContainer input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .inputContainer input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .linealSection {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+    padding-left: 20px;
+  }
+  
+  .addIcon {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+  }
+  
+  .addIcon:hover {
+    opacity: 0.8;
+  }
+  
+  .linealText {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+  }
+  
+  

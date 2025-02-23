@@ -1,0 +1,83 @@
+.headerFrame {
+    background: #fbfbfb;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+  }
+  
+  .titleText {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .inputContainer {
+    width: 100%;
+  }
+  
+  .descriptionInput {
+    width: 100%;
+    padding: 11px 21px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .descriptionInput::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .descriptionInput:focus {
+    outline: none;
+    border-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .linearContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+  }
+  
+  .addIcon {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+  }
+  
+  .addIcon:hover {
+    opacity: 0.8;
+  }
+  
+  .linearText {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+  }
+  
+  
